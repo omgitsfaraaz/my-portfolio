@@ -7,6 +7,18 @@ class Project extends Component {
 		this.state = { activeTab: 0 }
 	}
 
+	toggleCategories() {
+		if(this.state.activeTab === 0){
+			return(
+				<div><h1>This is React JS</h1></div>
+			)
+		} else if(this.state.activeTab === 1) {
+			return(
+				<div><h1>This is Django</h1></div>
+			)
+		}
+	}
+
 
 	render() {
 		return(
@@ -15,6 +27,10 @@ class Project extends Component {
 					<Tab>React JS</Tab>
 					<Tab>Django</Tab>
 				</Tabs>
+
+				<section className="project-grid">
+					{this.toggleCategories()}
+				</section>
 			</div>
 		)
 	}
