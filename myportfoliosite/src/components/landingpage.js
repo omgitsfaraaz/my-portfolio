@@ -25,17 +25,17 @@ class Landing extends Component {
 								</a>
 
 								{/* Github */}
-								<a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+								<a href="https://github.com/omgitsfaraaz" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-github-square" aria-hidden="true"></i>
 								</a>
 
 								{/* Instagram */}
-								<a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+								<a href="https://www.instagram.com/omgitsfaraaz/" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-instagram" aria-hidden="true"></i>
 								</a>
 
 								{/* Skype */}
-								<a href="https://www.google.com/" rel="noopener noreferrer" target="_blank">
+								<a href="https://join.skype.com/invite/lvDM95cw8VmS" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-skype" aria-hidden="true"></i>
 								</a>
 							</div>
