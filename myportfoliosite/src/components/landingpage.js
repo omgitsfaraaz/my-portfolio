@@ -17,6 +17,7 @@ class Landing extends Component {
 						<div className="banner-text">
 							<h1>Keen Interest in Frontend Developement</h1>
 							<hr/>
+							<p>HTML/CSS | Bootstrap | JavaScript | React JS | NodeJS | MongoDB</p>
 						</div>
 
 					</Cell>
