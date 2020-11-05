@@ -70,7 +70,6 @@
   background: grey;
   padding-top: 2em;
   margin: auto;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -85,4 +84,33 @@
   color: black;
   border: 2px solid red;
   margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif; 
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 377px) {
+  .contact-body {
+    height: 245%;
+  }
+
+  .contact-grid {
+    height: 800px;
+  }
+
+  .project-grid {
+    height: 993px;
+  }
 }
