@@ -63,3 +63,15 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+/* Contact page css */
+
+.contact-body {
+  background: grey;
+  padding-top: 2em;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
