@@ -67,7 +67,6 @@
 /* Contact page css */
 
 .contact-body {
-  background: grey;
   padding-top: 2em;
   margin: auto;
   width: 100%;
@@ -82,7 +81,6 @@
   height: 550px;
   background: white;
   color: black;
-  border: 2px solid red;
   margin-bottom: 20px;
 }
 
@@ -101,6 +99,60 @@
   width: 50%;
 }
 
+.personal-no {
+  display: flex;
+}
+
+.personal-no i {
+  font-size: 66px;
+  padding-right: 5rem;
+  padding-left: 15px;
+  padding-top: 26px;
+}
+
+.personal-no p {
+  padding-top: 52px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.personal-email {
+  display: flex;
+}
+
+.personal-email i {
+  font-size: 66px;
+  padding-right: 5rem;
+  padding-left: 15px;
+  padding-top: 26px;
+}
+
+.personal-email p {
+  padding-top: 52px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.skype-id {
+  display: flex;
+}
+
+.skype-id i {
+  font-size: 66px;
+  padding-right: 5rem;
+  padding-left: 15px;
+  padding-top: 26px;
+}
+
+.skype-id p {
+  padding-top: 52px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
 @media screen and (max-width: 377px) {
   .contact-body {
     height: 245%;
@@ -112,5 +164,46 @@
 
   .project-grid {
     height: 993px;
+  }
+
+  .banner-text h1 {
+    font-size: 39px;
+  }
+
+  .social-links {
+    padding-right: 68px;
+  }
+
+  .personal-no p {
+    font-size: 22px;
+  }
+
+  .personal-no i {
+    font-size: 39px;
+    padding-right: 1rem;
+    padding-left: 15px;
+    padding-top: 44px;
+  }
+
+  .personal-email p {
+    font-size: 22px;
+  }
+
+  .personal-email i {
+    font-size: 39px;
+    padding-right: 1rem;
+    padding-left: 15px;
+    padding-top: 44px;
+  }
+
+  .skype-id p {
+    font-size: 22px;
+  }
+
+  .skype-id i {
+    font-size: 39px;
+    padding-right: 1rem;
+    padding-left: 15px;
+    padding-top: 44px;
   }
 }

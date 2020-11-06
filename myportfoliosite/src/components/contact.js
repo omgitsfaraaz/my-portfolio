@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 import picture from './circle-cropped.png';
 
 class Contact extends Component {
@@ -22,20 +22,17 @@ class Contact extends Component {
 						<h2>Contact Me</h2>
 						<hr />
 
-						<List>
-						  <ListItem>
-						    <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
-						    	<i className="fa fa-phone-square"></i>+91 88801 04380
-						    </ListItemContent>
-						  </ListItem>
-						  <ListItem>
-						    <ListItemContent icon="person">Aaron Paul</ListItemContent>
-						  </ListItem>
-						  <ListItem>
-						    <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-						  </ListItem>
-						</List>
+						<div className="personal-no">
+							<i className="fa fa-phone-square" aria-hidden="true" /><p>+91 88801 04380</p>
+						</div>
 
+						<div className="personal-email">
+							<i className="fa fa-envelope-square" aria-hidden="true" /><p>mohsinsait23@gmail.com</p>
+						</div>
+
+						<div className="skype-id">
+							<i className="fa fa-skype" aria-hidden="true" /><p>mohsin6738</p>
+						</div>
 					</Cell>
 				</Grid>
 			</div>
