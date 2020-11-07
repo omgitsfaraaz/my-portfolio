@@ -153,6 +153,13 @@
   font-weight: lighter;
 }
 
+/* Resume page css */
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}
+
 @media screen and (max-width: 377px) {
   .contact-body {
     height: 245%;
