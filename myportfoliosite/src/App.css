@@ -158,8 +158,14 @@
 .resume-right-col {
   background: #27221F;
   color: white;
+  padding: 2em;
 }
 
+.progress_position {
+  justify-content: space-between;
+}
+ 
+ 
 @media screen and (max-width: 377px) {
   .contact-body {
     height: 245%;
