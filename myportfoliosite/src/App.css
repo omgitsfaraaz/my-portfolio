@@ -62,6 +62,7 @@
 .project-grid {
   display: flex;
   flex-wrap: wrap;
+  height: 680px;
 }
 
 .django-grid {
@@ -190,7 +191,7 @@
   }
 
   .project-grid {
-    height: 993px;
+    height: 1363px;
   }
 
   .django-grid {

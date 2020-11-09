@@ -55,6 +55,20 @@ class Project extends Component {
 							<IconButton name="share" />
 						</CardMenu>
 					</Card>
+
+					{/* Project 1 */}
+					<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+						<CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.corp-site.envato.com/cdn-cgi/image/width=1200,quality=95,format=auto/uploads/2020/06/SOC101_Portfolio_Guide.png) center / cover'}}>Personal Portfolio</CardTitle>
+						<CardText>
+							This is my personal portfolio made using React Js. Used Google firebase to host it. 
+						</CardText>
+						<CardActions border>
+							<Button colored href="https://github.com/omgitsfaraaz/my-portfolio" target="_blank">Github</Button>
+						</CardActions>
+						<CardMenu style={{color: '#fff'}}>
+							<IconButton name="share" />
+						</CardMenu>
+					</Card>
 				</div>
 			)
 		} else if(this.state.activeTab === 1) {
