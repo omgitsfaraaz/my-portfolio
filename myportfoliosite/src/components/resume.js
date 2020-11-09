@@ -21,7 +21,7 @@ class Resume extends Component {
 						<h2 style={{paddingTop: '2em'}}>Mohammed Mohsin Sait</h2>
 						<h4 style={{color: 'grey'}}>Keen interest in Frontend Development</h4>
 						<hr style={{borderTop: '3px solid #833bf2', width: '50%'}} />
-						<p>I am Mohit Sangwan,a 18 year old web and app developer based in NEW DELHI who loves to code and design websites.I love working with different teams to understand the different points of view and improve my team work skill.I'm absolutely passionate about coding. I love to identify, to challenge and to solve problems by setting up cutting-edge and personalized solutions.More broadly, i'm very interested in learning new technonogies and human behaviour, i try to learn about these topics as much as i can !. I'm Good at Django, Python, Java. Love to create real life projects. I'm basically concentrating more on Django and React JS projects.</p>
+						<p>Hey I'm Mohsin,a 23 year old web developer based in Bangalore who loves to code and design websites.I love working with different teams to understand the different points of view and improve my team work skill.I'm absolutely passionate about coding. I love to identify, to challenge and to solve problems by setting up cutting-edge and personalized solutions.More broadly, I'm very interested in learning new technonogies and human behaviour, I try to learn about these topics as much as I can !. I'm Good at Django, Python, Java. Love to create real life projects. I'm basically concentrating more on Django and React JS projects.</p>
 						<hr style={{borderTop: '3px solid #833bf2', width: '50%'}} />
 						<h5>Address</h5>
 						<p>No. 39/17, 1st floor, 2nd cross, Krishnappa Garden, BHEL Layout, Jayanagar east, near Mecca Masjid, Bangalore-560011.</p>

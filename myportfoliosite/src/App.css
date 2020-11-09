@@ -64,6 +64,11 @@
   flex-wrap: wrap;
 }
 
+.django-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Contact page css */
 
 .contact-body {
@@ -164,7 +169,16 @@
 .progress_position {
   justify-content: space-between;
 }
- 
+
+/* Footer */
+
+.my_footer {
+  background: #424242;
+  color: white;
+  padding-left: 552px;
+  padding-top: 11px;
+}
+
  
 @media screen and (max-width: 377px) {
   .contact-body {
@@ -177,6 +191,10 @@
 
   .project-grid {
     height: 993px;
+  }
+
+  .django-grid {
+    height: 354px;
   }
 
   .banner-text h1 {
@@ -218,5 +236,9 @@
     padding-right: 1rem;
     padding-left: 15px;
     padding-top: 44px;
+  }
+
+  .my_footer {
+    padding-left: 90px;
   }
 }

@@ -11,7 +11,6 @@ function App() {
             <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MOHAMMED MOHSIN SAIT</Link>} scroll>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
@@ -19,7 +18,6 @@ function App() {
             <Drawer title={<Link style={{textDecoration: 'none', color: '#878787', fontSize: '14px'}} to="/">MOHAMMED MOHSIN SAIT</Link>}>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">About Me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
@@ -28,6 +26,9 @@ function App() {
                 <div className="page-content" />
                 <Main />
             </Content>
+            <div className="my_footer">
+                <p>Made with ❤️ by @omgitsfaraaz</p>
+            </div>
         </Layout>
     </div>
   );
